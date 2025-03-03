@@ -231,7 +231,7 @@ flowchart TD
 
 7. **Benchmark Framework**: The evaluation system that assesses LLM performance on standardized tasks with detailed metrics for accuracy, coverage, relevance, and efficiency.
 
-All components will be implemented in Python with comprehensive test coverage and documentation. The architecture will be modular, allowing for component reuse and independent scaling as needs evolve.
+All components will be implemented in Flutter with comprehensive test coverage and documentation. The architecture will be modular, allowing for component reuse and independent scaling as needs evolve.
 
 For frontend integration, I can either develop integration points with your existing Flutter-based application or implement a CLI interface. The backend will expose a clear API that can be consumed by either approach. I'd welcome discussion on which option would better align with your current infrastructure and team workflows - the CLI would offer simplicity for CI/CD integration, while Flutter integration would provide a more seamless experience for existing users.
 
@@ -306,4 +306,11 @@ I have some questions for more understanding:
 3. Are there specific types of APIs that should be given special focus in the benchmark dataset (e.g., e-commerce, financial, IoT)?
 
 4. How will the frontend be planned? Will it be a standalone interface, an extension of an existing dashboard, or fully integrated into an API testing - API Dash client ?
+
+
+##  Questions Addressed  
+
+[PR #629](https://github.com/foss42/apidash/pull/629) – All raised questions have been addressed. You can find the details [here]
+
+
 
